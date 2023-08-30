@@ -2,9 +2,10 @@ name: Build and deploy to GitHub Pages
 
 on:
   push:
-    branches: main
-
-jobs:
+    branches: 
+    - main
+    
+    jobs:
     build-and-deploy:
     runs-on: ubuntu-latest
     steps:
